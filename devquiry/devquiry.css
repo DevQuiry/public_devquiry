@@ -9,6 +9,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #FFEEB8;
   background-image: linear-gradient(to bottom, #FFEEB8 0%, #FFCAB8 100%);
+  background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #FFEEB8), color-stop(100%, #FFCAB8));
   background-attachment: fixed;
 
   position: absolute;
@@ -28,6 +29,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 500px;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
@@ -35,12 +37,14 @@ body {
 }
 
 header {
-  padding: 20px 15px 15px 15px;
+  padding: 0px 15px 15px 15px;
   position: relative;
 }
 
 h6 {
   margin: 0;
+  font-weight: 900;
+  font-size: .52em;
 }
 
 span {
