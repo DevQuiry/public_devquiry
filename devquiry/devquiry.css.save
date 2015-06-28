@@ -1,0 +1,37 @@
+/* CSS declarations go here */
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #FFEEB8;
+  background-image: linear-gradient(to bottom, #FFEEB8 0%, #FFCAB8 100%);
+  background-attachment: fixed;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 72px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px 15px 15px 15px;
+  position: relative;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right:0;
+}
